@@ -16,7 +16,32 @@ main {
     position: relative;
     flex-direction: column;
     height: auto;
+
+    
 }
+
+.container {
+    width: 80%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+section {
+    margin: 20px 0;
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+
+.typesofcsa-box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
 
 footer {
     position: absolute;
